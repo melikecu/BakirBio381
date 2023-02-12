@@ -3,8 +3,9 @@ title: "index"
 author: "Melike Bakir"
 date: "2023-02-03"
 output: 
-rmarkdown::html_document:
-    theme: lumen
+prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 ---
 
 ```{r setup, include=FALSE}
