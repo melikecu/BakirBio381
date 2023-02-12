@@ -1,9 +1,9 @@
 ---
-title: "index"
+title: "BakirBio381"
 author: "Melike Bakir"
-date: "2023-02-03"
-output: 
-prettydoc::html_pretty:
+date: "3 February 2023"
+output:
+  prettydoc::html_pretty:
     theme: cayman
     highlight: github
 ---
