@@ -2,7 +2,9 @@
 title: "index"
 author: "Melike Bakir"
 date: "2023-02-03"
-output: html_document
+output: 
+rmarkdown::html_document:
+    theme: lumen
 ---
 
 ```{r setup, include=FALSE}
