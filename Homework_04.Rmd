@@ -1,4 +1,12 @@
-# Atomic vectors
+---
+title: "Homework_04"
+author: "Melike Bakir"
+date: "2023-02-13"
+output: html_document
+---
+#Atomic vectors
+
+```{r}
 #1a
 x<-1.1
 a<-2.2
@@ -13,6 +21,9 @@ b<-3
 z<-(x^a)^b
 z
 
+```
+
+```{r}
 #2a 
 z<- c(seq(1,8), seq(7,1))
 z
@@ -21,33 +32,30 @@ z
 rep(1:5, c(1, 2, 3, 4, 5))
 
 #2c
-
 rep(5:1, c(1, 2, 3, 4, 5))
+```
 
+
+```{r}
 #3
-
 x <- runif(1, min = 0, max = 100)
-
 y <- runif(1, min = 0, max = 100)
-
 # y/sin(b) = x/cos(b)
-
 t <- atan(y/x)
-
 r <- cos(t)/x
-
 r
+```
 
 
+```{r}
 
 #4
 queue <- c("sheep", "fox", "owl", "ant")
-#4a
 
+#4a
 queue <- c("sheep", "fox", "owl", "ant")
 queue2 <- append(queue,'serpent')
 queue2
-
 #4b(
 queue3 <- queue2[-c(1)]
 queue3
@@ -65,7 +73,9 @@ queue7 <- append(queue6,'aphid', after=2)
 queue7
 #4g 
 which(queue7=="aphid")
+```
 
+```{r}
 #5
 Int <- (1:100)
 a <- Int %% 2 == 0 
@@ -73,4 +83,8 @@ b <- Int %% 3 == 0
 c <- Int %% 7 == 0
 answer <- c(a | b | c)
 answer
+```
+
+
+
 
